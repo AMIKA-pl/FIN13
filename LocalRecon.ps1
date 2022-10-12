@@ -24,8 +24,8 @@ net accounts;
 net localgroup;
 
 #T1033, T1059.001
-powershell -ExecutionPolicy Bypass -File C:\Users\ADMINI~1\AppData\Local\Temp\1\ExtractLogins.ps1;
+powershell -ExecutionPolicy Bypass C:\Users\ADMINI~1\AppData\Local\Temp\1\ExtractLogins.ps1;
 
 #T1564.013, T1018
-powershell -ExecutionPolicy Bypass -File C:\Users\ADMINI~1\AppData\Local\Temp\1\DNSDump.ps1;
+powershell -ExecutionPolicy Bypass C:\Users\ADMINI~1\AppData\Local\Temp\1\DNSDump.ps1;
 
